@@ -1,7 +1,5 @@
 // console.log("products starter");
 const url = "https://course-api.com/javascript-store-products";
-const urlSingleProduct =
-  "https://course-api.com/javascript-store-single-product?id=rec43w3ipXvP28vog";
 
 const productsDom = document.querySelector(".products-center");
 const loading = '<div class="loading"></div>';
