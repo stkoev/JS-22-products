@@ -32,7 +32,7 @@ async function displayProducts(products) {
       //   console.log(item.fields.name);
       //   console.log(item.fields.price);
       return `
-        <a href="product.html" class="single-product">
+        <a href="product.html?id=${id}" class="single-product">
             <img
             src="${url}"
             class="single-product-img img"
